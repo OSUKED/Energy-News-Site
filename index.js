@@ -45,7 +45,7 @@ module.exports = themeConfig => {
       },
     ],
     globalPagination: {
-      lengthPerPage: 6,
+      lengthPerPage: 99999,
     },
   }
 

@@ -2,7 +2,7 @@ module.exports = {
   title: 'Open Source Energy News',
   base: '/',
   dest: 'dist',
-  description: 'Latest news from the UK energy sector',
+  description: 'Find the latest news from the UK energy sector',
   logo: './assets/img/logo.png',
   theme: require.resolve('../../'),
   themeConfig: {

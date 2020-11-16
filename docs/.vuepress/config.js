@@ -1,8 +1,8 @@
 module.exports = {
-  title: 'Mediumish',
+  title: 'Energy News',
   base: '/',
   dest: 'dist',
-  description: 'Mediumish theme with VuePress and Forestry',
+  description: 'Latest news from the UK energy sector',
   logo: './assets/img/logo.png',
   theme: require.resolve('../../'),
   themeConfig: {
@@ -26,7 +26,7 @@ module.exports = {
         },
         {
           type: 'github',
-          link: 'https://github.com/wowthemesnet/mediumish-vuepress-blog-theme',
+          link: 'https://github.com/AyrtonB/Energy-News-Site',
         },
         {
           type: 'gitlab',
@@ -54,7 +54,7 @@ module.exports = {
         },
         {
           type: 'twitter',
-          link: 'https://twitter.com/wowthemesnet',
+          link: 'https://twitter.com/AyrtonBourn',
         },
         {
           type: 'web',
@@ -65,10 +65,6 @@ module.exports = {
         {
           text: 'Licensed MIT.',
           link: 'https://bootstrapstarter.com/license/',
-        },
-        {
-          text: 'Made with Mediumish - free Vuepress theme',
-          link: 'https://bootstrapstarter.com/bootstrap-templates/vuepress-theme-mediumish/',
         },
       ],
     },

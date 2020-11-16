@@ -1,7 +1,7 @@
 {
-  "name": "vuepress-theme-mediumish",
+  "name": "energy-news-site",
   "version": "1.0.32",
-  "description": "Mediumish blog theme for VuePress",
+  "description": "Up to date news on the UK energy sector",
   "keywords": [
     "vue",
     "vuepress",
@@ -12,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "wowthemesnet/mediumish-vuepress-blog-theme"
+    "url": "AyrtonB/Energy-News-Site"
   },
   "license": "MIT",
-  "author": "sal<wowthemesnet@gmail.com>",
+  "author": "ayrtonbourn@outlook.com",
   "main": "index.js",
   "files": [
     "index.js",

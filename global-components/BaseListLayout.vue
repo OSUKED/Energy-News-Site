@@ -11,10 +11,10 @@ class="ui-post entry col-md-4 card-container"
 itemscope
 itemtype="https://schema.org/BlogPosting"
 >
-  <meta itemprop="mainEntityOfPage" :content="page.path" />
+  <meta itemprop="mainEntityOfPage" :content="page.frontmatter.url" />
   <div class="entry card h-100">
     <div class="card-header-image">
-      <NavLink :link="page.path">
+      <NavLink :link="page.frontmatter.url">
       <img :src="page.frontmatter.featuredimg"/>
       </NavLink>
     </div>
@@ -36,7 +36,7 @@ itemtype="https://schema.org/BlogPosting"
         </div>
       </div>
       <h2 class="heading" itemprop="name headline">
-       <NavLink :link="page.path" class="heading">{{ page.title }}</NavLink>
+       <NavLink :link="page.frontmatter.url" class="heading">{{ page.title }}</NavLink>
       </h2>
       <p itemprop="description">{{ page.frontmatter.summary || page.summary }}</p>
     </div>

@@ -43,19 +43,19 @@ itemtype="https://schema.org/BlogPosting"
     <div class="meta-bottom mt-auto">
 
 
-      <div v-if="$themeConfig.authors">
+      <div v-if="$themeConfig.sources">
       <span
-      v-for="author in $themeConfig.authors"
-      :key="author.name"
+      v-for="source in $themeConfig.sources"
+      :key="source.name"
       class="nav-item"
       >
       <div class="d-flex">
       <a class="profile-avatar">
-      <img v-if="author.name === page.frontmatter.source" :src="($withBase)(author.avatar)" class="avatar-image" :alt="author.name">
+      <img v-if="source.name === page.frontmatter.source" :src="($withBase)(source.avatar)" class="avatar-image" :alt="source.name">
       </a>
       <div class="meta">
-      <div  v-if="author.name === page.frontmatter.source">
-      <span class="username">{{author.name}}</span> &nbsp;
+      <div  v-if="source.name === page.frontmatter.source">
+      <span class="username">{{source.name}}</span> &nbsp;
       </div>
       <div>
       </div>

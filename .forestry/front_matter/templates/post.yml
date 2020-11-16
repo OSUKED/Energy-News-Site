@@ -9,23 +9,23 @@ fields:
   name: date
   label: date
 - type: text
-  name: author
-  label: author
+  name: source
+  label: source
 - name: tags
   type: tag_list
   default: []
   label: tags
-- name: featuredimg
+- name: image_url
   type: file
   config:
     maxSize: 64
-  label: featuredimg
+  label: image_url
 - type: text
-  name: summary
-  label: summary
-- name: url
+  name: lead
+  label: lead
+- name: article_url
   type: text
   config:
     required: false
   hidden: true
-  label: url
+  label: article_url

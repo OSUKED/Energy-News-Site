@@ -23,6 +23,3 @@ fields:
 - type: text
   name: summary
   label: summary
-pages:
-- docs/_posts/2019-2-26-markdown-slot-3.md
-- docs/_posts/2019-5-6-writing-a-vuepress-theme.md

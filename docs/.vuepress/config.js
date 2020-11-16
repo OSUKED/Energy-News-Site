@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Open Source UK Energy News',
+  title: 'Open Source Energy News',
   base: '/',
   dest: 'dist',
   description: 'Latest news from the UK energy sector',

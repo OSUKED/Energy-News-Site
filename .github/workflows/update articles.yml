@@ -1,0 +1,23 @@
+name: Update articles
+
+on: push
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        dir
+        python -m pip install --upgrade pip
+        pip install "git+https://github.com/AyrtonB/Energy-News.git"
+        python update_articles.py
+      
+    - uses: stefanzweifel/git-auto-commit-action@v4

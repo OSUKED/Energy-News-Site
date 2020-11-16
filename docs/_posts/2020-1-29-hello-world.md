@@ -7,7 +7,7 @@ tags:
   - vuepress
 author: Sal
 featuredimg: 'https://images.unsplash.com/photo-1482876555840-f31c5ebbff1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80'
-summary: For a moment she wondered how she had happened to wake so early.
+summary: 
 ---
 
 When Louise opened her eyes she stared dreamily up at the slight abrasion in the shingle roof through which morning blinked. There were not many of these informal skylights, for the roof was not an old one. But there were a few, as there are likely to be in most summer cottages. When there was a violent downpour one had to hustle around distributing pans and kettles to catch an often ambitious drip. But this morning there was no rain. Louise's pretty face was not in danger of an unsolicited bath. It was a radiant summer dawn.

@@ -1,16 +1,16 @@
 <template>
-  <div v-if="$themeConfig.authors">
+  <div v-if="$themeConfig.sources">
     <span
-    v-for="author in $themeConfig.authors"
-    :key="author.name"
+    v-for="source in $themeConfig.sources"
+    :key="source.name"
     >
     <div class="d-flex align-items-center">
       <a class="profile-avatar">
-        <img v-if="author.name === $frontmatter.author" :src="($withBase)(author.avatar)" class="avatar-image" :alt="author.name">
+        <img v-if="source.name === $frontmatter.source" :src="($withBase)(source.avatar)" class="avatar-image" :alt="source.name">
       </a>
-      <div  v-if="author.name === $frontmatter.author">
-        <span>{{author.name}}</span> &nbsp;
-        <NavLink v-if="author.name === $frontmatter.author" :link="author.link" class="btn btn-sm btn-outline-dark">{{ author.linktext }}</NavLink>
+      <div  v-if="source.name === $frontmatter.source">
+        <span>{{source.name}}</span> &nbsp;
+        <NavLink v-if="source.name === $frontmatter.source" :link="source.link" class="btn btn-sm btn-outline-dark">{{ source.linktext }}</NavLink>
       </div>
     </div>
     </span>

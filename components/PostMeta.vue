@@ -1,13 +1,13 @@
 <template>
   <div class="post-meta">
   <div
-  v-if="author"
-  class="post-meta-author"
-  itemprop="publisher author"
+  v-if="source"
+  class="post-meta-source"
+  itemprop="publisher source"
   itemtype="http://schema.org/Person"
   itemscope
   >
-  <span itemprop="name">{{ author }}</span>
+  <span itemprop="name">{{ source }}</span>
   <span v-if="location" itemprop="address"> &nbsp; in {{ location }}</span>
   </div>
   <div v-if="date" class="post-meta-date">
@@ -34,7 +34,7 @@ export default {
     tags: {
       type: [Array, String],
     },
-    author: {
+    source: {
       type: String,
     },
     date: {

@@ -6,18 +6,12 @@ module.exports = {
   logo: './assets/img/logo.png',
   theme: require.resolve('../../'),
   themeConfig: {
-  authors: [
+  sources: [
       {
-      name: 'Sal',
-      avatar: '/assets/img/sal.jpg',
-      link: 'https://wowthemes.net/donate',
-      linktext: 'Follow',
-      },
-      {
-        name: 'John Doe',
-        avatar: '/assets/img/avatar.png',
-        link: 'https://bootstrapstarter.com/',
-        linktext: 'Follow',
+      name: 'BBC',
+      avatar: '/assets/img/bbc.png',
+      link: 'https://www.bbc.co.uk/news',
+      linktext: 'source',
       },
     ],
     footer: {

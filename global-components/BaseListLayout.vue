@@ -11,11 +11,11 @@ class="ui-post entry col-md-4 card-container"
 itemscope
 itemtype="https://schema.org/BlogPosting"
 >
-  <meta itemprop="mainEntityOfPage" :content="page.frontmatter.url" />
+  <meta itemprop="mainEntityOfPage" :content="page.frontmatter.article_url" />
   <div class="entry card h-100">
     <div class="card-header-image">
-      <NavLink :link="page.frontmatter.url">
-      <img :src="page.frontmatter.featuredimg"/>
+      <NavLink :link="page.frontmatter.article_url">
+      <img :src="page.frontmatter.image_url"/>
       </NavLink>
     </div>
 
@@ -36,9 +36,9 @@ itemtype="https://schema.org/BlogPosting"
         </div>
       </div>
       <h2 class="heading" itemprop="name headline">
-       <NavLink :link="page.frontmatter.url" class="heading">{{ page.title }}</NavLink>
+       <NavLink :link="page.frontmatter.article_url" class="heading">{{ page.title }}</NavLink>
       </h2>
-      <p itemprop="description">{{ page.frontmatter.summary || page.summary }}</p>
+      <p itemprop="description">{{ page.frontmatter.lead }}</p>
     </div>
     <div class="meta-bottom mt-auto">
 
@@ -51,10 +51,10 @@ itemtype="https://schema.org/BlogPosting"
       >
       <div class="d-flex">
       <a class="profile-avatar">
-      <img v-if="author.name === page.frontmatter.author" :src="($withBase)(author.avatar)" class="avatar-image" :alt="author.name">
+      <img v-if="author.name === page.frontmatter.source" :src="($withBase)(author.avatar)" class="avatar-image" :alt="author.name">
       </a>
       <div class="meta">
-      <div  v-if="author.name === page.frontmatter.author">
+      <div  v-if="author.name === page.frontmatter.source">
       <span class="username">{{author.name}}</span> &nbsp;
       </div>
       <div>

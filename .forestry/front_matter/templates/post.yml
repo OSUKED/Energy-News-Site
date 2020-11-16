@@ -23,3 +23,9 @@ fields:
 - type: text
   name: summary
   label: summary
+- name: url
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: url

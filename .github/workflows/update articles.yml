@@ -1,6 +1,8 @@
 name: Update articles
 
-on: push
+on: 
+  push: 
+  repository_dispatch:
 
 jobs:
   run:

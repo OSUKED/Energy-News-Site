@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Mediumish',
   base: '/',
-  dest: 'public',
+  dest: 'dist',
   description: 'Mediumish theme with VuePress and Forestry',
   logo: './assets/img/logo.png',
   theme: require.resolve('../../'),

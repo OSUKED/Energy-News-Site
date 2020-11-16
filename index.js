@@ -10,7 +10,7 @@ module.exports = themeConfig => {
     logo: '/assets/img/logo.png',
     nav: themeConfig.nav || [
       {
-        text: 'Blog',
+        text: 'News',
         link: '/',
       },
       {

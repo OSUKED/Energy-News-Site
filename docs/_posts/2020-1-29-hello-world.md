@@ -1,14 +1,14 @@
 ---
-title: Hello, World
-date: 2020-1-29
+title: Offshore projects restart 'could take three years'
+date: 2020-11-11 17:21
 tags:
   - theme
   - blog
   - vuepress
 source: BBC
-image_url: 'https://images.unsplash.com/photo-1482876555840-f31c5ebbff1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80'
-lead: For a moment she wondered how she had happened to wake so early.
-article_url: https://github.com/AyrtonB/Energy-News
+image_url: 'https://ichef.bbci.co.uk/live-experience/cps/320/cpsprodpb/CAC3/production/_114670915_capture.png'
+lead: Industry body Oil and Gas UK sounds the warning amid the pandemic and the sharp drop in energy prices.
+article_url: https://www.bbc.co.uk/news/uk-scotland-scotland-business-54905615
 ---
 
 ---

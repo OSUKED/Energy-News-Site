@@ -8,9 +8,15 @@ module.exports = {
   themeConfig: {
   sources: [
       {
-      name: 'BBC',
+      name: 'bbc',
       avatar: '/assets/img/bbc.png',
       link: 'https://www.bbc.co.uk/news',
+      linktext: 'source',
+      },
+      {
+      name: 'carbon brief',
+      avatar: '/assets/img/cb.png',
+      link: 'https://www.carbonbrief.org/',
       linktext: 'source',
       },
     ],

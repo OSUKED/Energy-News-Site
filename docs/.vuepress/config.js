@@ -5,7 +5,6 @@ module.exports = {
   description: 'Latest news from the UK energy sector',
   logo: './assets/img/logo.png',
   theme: require.resolve('../../'),
-  devtools: true,
   themeConfig: {
   sources: [
       {

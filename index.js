@@ -14,12 +14,12 @@ module.exports = themeConfig => {
         link: '/',
       },
       {
-        text: 'Home',
-        link: '/home/',
-      },
-      {
         text: 'Tags',
         link: '/tag/',
+      },
+      {
+        text: 'About',
+        link: '/about/',
       },
     ],
     summary: themeConfig.summary === undefined ? true : themeConfig.summary,

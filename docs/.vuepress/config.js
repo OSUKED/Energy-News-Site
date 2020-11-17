@@ -61,24 +61,8 @@ module.exports = {
     footer: {
       contact: [
         {
-          type: 'codepen',
-          link: '#',
-        },
-        {
-          type: 'facebook',
-          link: '#',
-        },
-        {
           type: 'github',
           link: 'https://github.com/AyrtonB/Energy-News-Site',
-        },
-        {
-          type: 'gitlab',
-          link: '#',
-        },
-        {
-          type: 'instagram',
-          link: '#',
         },
         {
           type: 'linkedin',
@@ -86,14 +70,6 @@ module.exports = {
         },
         {
           type: 'mail',
-          link: '#',
-        },
-        {
-          type: 'messenger',
-          link: '#',
-        },
-        {
-          type: 'phone',
           link: '#',
         },
         {
@@ -118,10 +94,7 @@ module.exports = {
     },
     comment: {
       service: 'disqus',
-      shortname: 'demowebsite',
-    },
-    newsletter: {
-      endpoint: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&id=8c3d2d214b'
+      shortname: 'energy-news',
     },
     feed: {
       canonical_base: 'https://github.com/AyrtonB/Energy-News-Site/',

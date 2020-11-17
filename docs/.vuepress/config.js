@@ -38,6 +38,12 @@ module.exports = {
       link: 'https://www.offshorewind.biz/',
       linktext: 'source',
       },
+      {
+      name: 'recharge news',
+      avatar: '/assets/img/recharge.jpg',
+      link: 'https://www.rechargenews.com/',
+      linktext: 'source',
+      },
     ],
     footer: {
       contact: [

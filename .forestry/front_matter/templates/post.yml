@@ -2,30 +2,33 @@
 label: Post
 hide_body: false
 fields:
-- type: text
-  name: title
-  label: title
-- type: datetime
-  name: date
-  label: date
-- type: text
-  name: source
-  label: source
-- name: tags
-  type: tag_list
-  default: []
-  label: tags
-- name: image_url
-  type: file
-  config:
-    maxSize: 64
-  label: image_url
-- type: text
-  name: lead
-  label: lead
-- name: article_url
-  type: text
-  config:
-    required: false
-  hidden: true
-  label: article_url
+  - type: text
+    name: title
+    label: title
+  - type: datetime
+    name: date
+    label: date
+  - type: text
+    name: source
+    label: source
+  - name: tags
+    type: tag_list
+    default: []
+    label: tags
+  - name: image_url
+    type: file
+    config:
+      maxSize: 64
+    label: image_url
+  - name: image_fp
+    type: text
+    label: image_fp
+  - type: text
+    name: lead
+    label: lead
+  - name: article_url
+    type: text
+    config:
+      required: false
+    hidden: true
+    label: article_url

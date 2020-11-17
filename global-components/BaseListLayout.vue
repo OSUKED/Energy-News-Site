@@ -15,7 +15,7 @@ itemtype="https://schema.org/BlogPosting"
   <div class="entry card h-100">
     <div class="card-header-image">
       <NavLink :link="page.frontmatter.article_url">
-      <img :src="page.frontmatter.image_url"/>
+      <img :src="page.frontmatter.image_fp"/>
       </NavLink>
     </div>
 

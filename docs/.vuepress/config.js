@@ -26,6 +26,12 @@ module.exports = {
       link: 'https://www.current-news.co.uk/',
       linktext: 'source',
       }
+      {
+      name: 'renews',
+      avatar: '/assets/img/renews.jpg',
+      link: 'https://renews.biz/',
+      linktext: 'source',
+      }
     ],
     footer: {
       contact: [

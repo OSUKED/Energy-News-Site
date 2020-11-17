@@ -44,6 +44,12 @@ module.exports = {
       link: 'https://www.rechargenews.com/',
       linktext: 'source',
       },
+      {
+      name: 'green tech media',
+      avatar: '/assets/img/gtm.png',
+      link: 'https://www.greentechmedia.com/',
+      linktext: 'source',
+      },
     ],
     footer: {
       contact: [

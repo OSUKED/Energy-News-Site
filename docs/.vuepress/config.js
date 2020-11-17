@@ -25,7 +25,7 @@ module.exports = {
       avatar: '/assets/img/current_news.png',
       link: 'https://www.current-news.co.uk/',
       linktext: 'source',
-      }
+      },
       {
       name: 'renews',
       avatar: '/assets/img/renews.jpg',

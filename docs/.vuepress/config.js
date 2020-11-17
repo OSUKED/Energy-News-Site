@@ -50,6 +50,12 @@ module.exports = {
       link: 'https://www.greentechmedia.com/',
       linktext: 'source',
       },
+      {
+      name: 'energy live news',
+      avatar: '/assets/img/energy_live_news.png',
+      link: 'https://www.energylivenews.com/',
+      linktext: 'source',
+      },
     ],
     footer: {
       contact: [

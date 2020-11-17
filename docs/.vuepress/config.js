@@ -7,6 +7,7 @@ module.exports = {
   theme: require.resolve('../../'),
   themeConfig: {
   pwa: true,
+  serviceWorker: true,
   sources: [
       {
       name: 'bbc',

@@ -20,6 +20,12 @@ module.exports = {
       link: 'https://www.carbonbrief.org/',
       linktext: 'source',
       },
+      {
+      name: 'current news',
+      avatar: '/assets/img/current_news.png',
+      link: 'https://www.current-news.co.uk/',
+      linktext: 'source',
+      }
     ],
     footer: {
       contact: [

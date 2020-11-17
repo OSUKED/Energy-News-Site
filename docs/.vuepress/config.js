@@ -32,6 +32,12 @@ module.exports = {
       link: 'https://renews.biz/',
       linktext: 'source',
       }
+      {
+      name: 'offshorewind',
+      avatar: '/assets/img/offshorewind.png',
+      link: 'https://www.offshorewind.biz/',
+      linktext: 'source',
+      }
     ],
     footer: {
       contact: [

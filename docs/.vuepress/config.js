@@ -63,6 +63,12 @@ module.exports = {
       link: 'https://www.theguardian.com/uk',
       linktext: 'source',
       },
+      {
+      name: 'business green',
+      avatar: '/assets/img/business_green.jpg',
+      link: 'https://www.businessgreen.com/',
+      linktext: 'source',
+      },
     ],
     footer: {
       contact: [

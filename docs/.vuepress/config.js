@@ -57,6 +57,12 @@ module.exports = {
       link: 'https://www.energylivenews.com/',
       linktext: 'source',
       },
+      {
+      name: 'guardian',
+      avatar: '/assets/img/guardian.jpg',
+      link: 'https://www.theguardian.com/uk',
+      linktext: 'source',
+      },
     ],
     footer: {
       contact: [

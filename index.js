@@ -27,7 +27,6 @@ module.exports = themeConfig => {
       typeof themeConfig.summaryLength === 'number'
         ? themeConfig.summaryLength
         : 200,
-    pwa: !!themeConfig.pwa,
   })
 
   /**

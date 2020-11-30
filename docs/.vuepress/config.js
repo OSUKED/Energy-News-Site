@@ -6,8 +6,6 @@ module.exports = {
   logo: './assets/img/logo.png',
   theme: require.resolve('../../'),
   themeConfig: {
-  pwa: true,
-  serviceWorker: true,
   sources: [
       {
       name: 'bbc',

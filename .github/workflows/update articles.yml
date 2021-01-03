@@ -3,7 +3,6 @@ name: Update articles
 on: 
   push: 
   repository_dispatch:
-  workflow_dispatch:
 
 jobs:
   run:

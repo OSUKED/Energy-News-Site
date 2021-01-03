@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import * as dayjs from 'dayjs'
+import dayjs from 'dayjs'
 import PostTag from './PostTag.vue'
 
 export default {
